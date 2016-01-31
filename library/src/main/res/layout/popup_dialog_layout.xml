@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/popup_dialog_content_margin"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_dialog_listview_bg"
+        android:listSelector="#00000000"
+        android:padding="13dp"
+        android:scrollbars="none"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="@dimen/popup_dialog_list_and_btn_margin"
+        android:background="@drawable/popup_dialog_btn_selector"
+        android:text="取消"
+        android:textColor="@color/popup_dialog_btn_text_color"
+        android:textSize="@dimen/popup_dialog_text_size"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="popup_dialog_corner">5dp</dimen>
+    <dimen name="popup_dialog_list_and_btn_margin">10dp</dimen>
+    <dimen name="popup_dialog_content_margin">20dp</dimen>
+    <dimen name="popup_dialog_text_size">16sp</dimen>
+</resources>
