@@ -26,7 +26,7 @@ PopupDialog是一个仿iOS的popup对话框，有兴趣的可以下载用
 private PopupDailog dialog;
 ...
 // 初始化对话框的数据
-list<String> mData = new ArrayList<>();
+List<String> mData = new ArrayList<>();
 mData.add("first");
 mData.add("second");
 mData.add("third");
