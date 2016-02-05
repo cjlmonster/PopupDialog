@@ -1,6 +1,6 @@
 #PopupDialog
 
-PopupDialog是一个仿iOS的popup对话框，有兴趣的可以下载用
+PopupDialog是一个仿iOS的popup对话框，有兴趣的可以下载使用
 
 项目中提供了一个sample样例供参考
 
