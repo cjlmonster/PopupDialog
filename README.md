@@ -16,6 +16,9 @@ PopupDialog是一个仿iOS的popup对话框，有兴趣的可以下载使用
 
 * ![image5](image/image5.png)
 
+##Test
+* hello world!
+* hello android
 ##使用方法
 
 1. 将项目中的library导入你所在的工程里
