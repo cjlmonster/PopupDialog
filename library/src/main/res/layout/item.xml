@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:textStyle="bold"
         android:padding="15dp"
-        android:textSize="16sp"
+        android:textSize="@dimen/popup_dialog_listview_text_size"
         android:gravity="center"
         android:textColor="@color/popup_dialog_list_text_color"/>
 </LinearLayout>

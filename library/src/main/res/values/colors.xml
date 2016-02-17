@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="popup_dialog_listview_bg">#aaffffff</color>
-    <color name="popup_dialog_list_pressed">#11000000</color>
+    <color name="popup_dialog_listview_bg">#eeffffff</color>
+    <color name="popup_dialog_list_pressed">#10000000</color>
     <color name="popup_dialog_list_normal">#00000000</color>
-    <color name="popup_dialog_btn_pressed">#33000000</color>
-    <color name="popup_dialog_btn_normal">#aaffffff</color>
-    <color name="popup_dialog_list_text_color">#3590da</color>
+    <color name="popup_dialog_btn_pressed">#30000000</color>
+    <color name="popup_dialog_btn_normal">#eeffffff</color>
+    <color name="popup_dialog_list_text_color">#5FA7F7</color>
     <color name="popup_dialog_btn_text_color">#f15522</color>
+    <color name="popup_dialog_divider_color">#66000000</color>
 </resources>
