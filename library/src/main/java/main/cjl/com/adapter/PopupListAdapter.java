@@ -19,8 +19,8 @@ public class PopupListAdapter extends BaseAdapter {
     private Context context;
 
     private List<String> mData;
-    
-    public void setData(List<String> mData){
+
+    public void setData(List<String> mData) {
         this.mData = mData;
         notifyDataSetChanged();
     }
@@ -51,7 +51,7 @@ public class PopupListAdapter extends BaseAdapter {
         if (convertView == null) {
             convertView = LayoutInflater.from(context).inflate(R.layout.item, parent, false);
             holder = new ListHolder();
-            holder.textView = (TextView) convertView.findViewById(R.id.text);
+            holder.textView = convertView.findViewById(R.id.text);
             convertView.setTag(holder);
         } else {
             holder = (ListHolder) convertView.getTag();

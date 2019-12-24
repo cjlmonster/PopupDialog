@@ -1,11 +1,12 @@
 package main.cjl.com.popupdialog;
 
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +14,7 @@ import java.util.List;
 import main.cjl.com.library.PopupDialog;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, PopupDialog.OnItemClickListener {
-    
+
     private View rootView;
     private PopupDialog dialog;
     private List<String> mData1;
@@ -30,12 +31,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.test_btn).setOnClickListener(this);
         findViewById(R.id.test_btn_change).setOnClickListener(this);
     }
-    
-    private void initToolbar(){
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+    private void initToolbar() {
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
     }
-    private void initDialog(){
+
+    private void initDialog() {
         mData1 = new ArrayList<>();
         mData1.add("first");
         mData1.add("second");
@@ -52,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.test_btn:
                 dialog.show();
                 break;

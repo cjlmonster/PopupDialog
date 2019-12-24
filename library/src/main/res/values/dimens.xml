@@ -2,7 +2,7 @@
 <resources>
     <dimen name="popup_dialog_corner">5dp</dimen>
     <dimen name="popup_dialog_list_and_btn_margin">10dp</dimen>
-    <dimen name="popup_dialog_content_margin">10dp</dimen>
+    <dimen name="popup_dialog_content_margin">20dp</dimen>
     <dimen name="popup_dialog_text_size">20sp</dimen>
     <dimen name="popup_dialog_listview_divider_height">0.5dp</dimen>
     <dimen name="popup_dialog_listview_text_size">18sp</dimen>
